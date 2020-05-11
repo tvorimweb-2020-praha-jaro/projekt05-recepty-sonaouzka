@@ -87,7 +87,37 @@ body {
 }
 
 @media (min-width: 480px) {
+
+.hlavni-recept {
+    min-height: 250px;
+}
+
+.recept{
+    min-height: 150px;
+}
+
+.hlavni-recept, .recept {
+    padding: 20px;
+}
+
+.recepty {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recept {
+    flex: 1 1 50%;
     }
+}
 
 @media (min-width: 860px) {
+
+.hlavni-recept {
+     min-height: 400px;
+}
+
+.recept{
+    min-height: 200px;
+}
+
     }
