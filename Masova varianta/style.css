@@ -120,4 +120,13 @@ body {
     min-height: 200px;
 }
 
+.doporucujeme {
+    display: flex;
+}
+    
+.hlavni-recept {
+    flex-basis: calc(100%/ 3);
+    border-right: 1px solid white;
+}
+
     }
