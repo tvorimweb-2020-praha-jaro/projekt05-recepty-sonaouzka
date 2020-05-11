@@ -40,18 +40,21 @@ body {
 
 body {
     color: white;
-    min-height: 200px;
 }
 
 .hlavni-recept, .recept {
     padding: 10px;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-bottom: 1px solid white;
 } 
 
 .hlavni-recept {
     background-image: url(images/burger.jpg);
+    min-height: 200px;
 }
 
 .recept2 {
@@ -76,7 +79,9 @@ body {
 
 .recept-meta {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
 
-
+.recept-nazev {
+    margin: 0;
 }
