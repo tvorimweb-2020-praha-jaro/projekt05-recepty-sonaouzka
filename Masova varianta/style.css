@@ -38,3 +38,26 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 /* ------------------------------- */
 
+body {
+    color: white;
+}
+
+.hlavni-recept {
+    background-image: url(images/burger.jpg);
+}
+
+.recept2 {
+    background-image: url(images/sushi.jpg);
+}
+    
+.recept3 {
+    background-image: url(images/kure.jpg);
+}
+    
+.recept4 {
+    background-image: url(images/rajcata.jpg);
+}
+    
+.recept5 {
+    background-image: url(images/grilovani.jpg);
+}
