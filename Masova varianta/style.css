@@ -45,6 +45,9 @@ body {
 
 .hlavni-recept, .recept {
     padding: 10px;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid white;
 } 
 
 .hlavni-recept {
