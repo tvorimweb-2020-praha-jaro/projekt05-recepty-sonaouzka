@@ -70,3 +70,10 @@ body {
 .recept {
     min-height: 90px;
 }
+
+.recept-meta {
+    display: flex;
+    flex-direction: column;
+
+
+}
